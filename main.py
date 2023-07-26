@@ -117,7 +117,7 @@ class AboutDialog(QMessageBox):
         super().__init__()
         self.setWindowTitle("About")
         content = """
-        This app was created during the course.
+        Student management system
         Feel free to modify/ reuse this app. 
         """
         self.setText(content)
